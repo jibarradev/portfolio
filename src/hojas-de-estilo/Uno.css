@@ -1,0 +1,53 @@
+/* Contenedor (sección 1)  */
+
+.uno {
+  /* background: linear-gradient(to right, #555, #eee, #555); */
+  background-color: #333;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* ---------- */
+
+/* Presentación */
+
+.presentacion {
+  background-color: white;
+  display: flex;
+  width: 70%;
+  height: 200px;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 17px;
+}
+
+h1 {
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 19ch;
+  animation: typing 2s steps(12), 
+blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+/* ---------- */

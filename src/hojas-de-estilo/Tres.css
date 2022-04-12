@@ -1,0 +1,69 @@
+/* Contenedor (sección 3) */
+
+.tres {
+  /* background: linear-gradient(to right, #555, #eee, #555); */
+  background-color: #eee;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+/* ---------- */
+
+/* Práctica */
+
+.practica {
+  color: black;
+  background-color: white;
+  border-radius: 17px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-practica {
+  margin: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.descripcion-practica {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ver {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.contenedor-prac {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-titulo-practica {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.a {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+
+
+/* ---------- */
